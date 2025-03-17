@@ -1,0 +1,44 @@
+messages:
+  no-permission: "<red>No tienes permiso para usar este comando."
+  optimize-to-trade:
+    - "<red>Necesitas optimizar a este aldeano antes de poder comerciar con él."
+  trades-restocked:
+    - "<green>¡Todos los intercambios han sido reabastecidos! Próximo reabastecimiento en %time%."
+  villager-leveling-up:
+    - "<yellow>¡El aldeano está subiendo de nivel! Podrás usarlo de nuevo en %time%."
+  nametag:
+    optimize-success:
+      - "<green>Aldeano optimizado con éxito usando una etiqueta con nombre."
+    optimize-on-cooldown:
+      - "<gray>Debes esperar %time% antes de poder optimizar a este aldeano nuevamente."
+    unoptimize-success:
+      - "<green>Aldeano desoptimizado con éxito usando una etiqueta con nombre."
+  block:
+    optimize-success:
+      - "<green>Aldeano %vil_profession% optimizado con éxito usando el bloque %blocktype%."
+    optimize-on-cooldown:
+      - "<gray>Debes esperar %time% antes de poder optimizar a este aldeano nuevamente."
+    unoptimize-success:
+      - "<green>Aldeano %vil_profession% desoptimizado con éxito al eliminar el bloque %blocktype%."
+  workstation:
+    optimize-success:
+      - "<green>Aldeano %vil_profession% optimizado con éxito usando la estación de trabajo %blocktype%."
+    optimize-on-cooldown:
+      - "<gray>Debes esperar %time% antes de poder optimizar a este aldeano nuevamente."
+    unoptimize-success:
+      - "<green>Aldeano desoptimizado con éxito al eliminar la estación de trabajo %blocktype%."
+  command:
+    optimize-success:
+      - "<green>%amount% aldeano(s) optimizado(s) con éxito en un radio de %radius% bloques."
+    optimize-fail:
+      - "<gray>%amount% aldeanos no pudieron ser optimizados porque fueron optimizados recientemente."
+    radius-limit-exceed:
+      - "<red>El radio ingresado excede el límite de %distance% bloques."
+    unoptimize-success:
+      - "<green>%amount% aldeano(s) desoptimizado(s) con éxito en un radio de %radius% bloques."
+    specify-radius:
+      - "<red>Por favor, especifica un radio."
+    radius-invalid:
+      - "<red>El radio ingresado no es un número válido. Intenta de nuevo."
+    no-villagers-nearby:
+      - "<gray>No se encontraron aldeanos empleados dentro de un radio de %radius%."
